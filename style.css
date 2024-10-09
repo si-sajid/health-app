@@ -1,0 +1,59 @@
+*,
+*::after,
+*::before{
+    box-sizing: border-box;
+}
+body{
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 3.5rem;
+}
+.child_traking{
+    background: #4D58DE;
+    padding:45px 30px;
+    margin: 0 1% 10px;
+    border-radius: 25px;
+    color: #fff;
+    transition: all 0.3s;
+
+}
+.child_traking:hover{
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 30px 90px;
+    transform: scale(1.02);
+}
+.child_traking:nth-child(1){
+    background: #fc3838;
+}
+.child_traking:nth-child(2){
+    background: #feaa48;
+}
+.child_traking:nth-child(3){
+    background: #27ae60;
+}
+.child_traking:nth-child(4){
+    background: #4D58DE;
+}
+.child_traking i{
+      font-size:50px;
+      margin-bottom: 40px;
+}
+.child_traking h5{
+    font-size:25px;
+    font-weight: 400;
+    text-transform: uppercase;
+    line-height: 1.2em;
+}
+.child_traking p{
+      margin: 0;
+}
+
+.traking_aria{
+    padding:45px 0;
+}
+.inner{
+    margin:0 auto;
+    text-align: center;
+}
+.inner h2{
+    margin-bottom: 20px;
+}
